@@ -55,5 +55,5 @@ Now when redirect to the link (chrome://extensions/) and repeat the process of t
 - Then when click on the image icon then it show the button of like count and comment count fill the value in both the feild.
 - Then according to the values return it will add the like and comment on the post 
 
-## Pre-requist:
+## Pre-requisite:
 Linkedin profile is login priorily
