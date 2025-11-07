@@ -1,7 +1,7 @@
 ATS_Assignment: Chrome Extension
 It is a **frontend-only Chrome Extension** built using **React + Vite**.  
 It allows users to **instantly fetch the title and URL of the active browser tab** and **copy** them to clipboard.  
-No backend, no server — everything runs directly in your browser!
+No backend, no server — everything runs directly in your browser! 
 
 
 ## ✨ Features
