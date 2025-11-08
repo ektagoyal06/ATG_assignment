@@ -1,15 +1,29 @@
 {
   "manifest_version": 3,
-  "name": "ATG Chrome Extension",
-  "version": "1.0.0",
-  "description": "A frontend-only Chrome extension built with Vite.",
+  "name": "ATG Profile Saver",
+  "version": "1.1",
+  "description": "Extract LinkedIn/ATG style profile info and send to backend.",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "http://localhost:5000/*",
+    "https://www.linkedin.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
   "action": {
-    "default_popup": "index.html",
-    "default_icon": "icon.png"
+    "default_popup": "popup.html",
+    "default_title": "Save Profile",
+    "default_icon": {
+      "128": "assets/icon.png"
+    }
   },
   "icons": {
-    "16": "icon.png",
-    "48": "icon.png",
-    "128": "icon.png"
+    "128": "assets/icon.png"
   }
 }
